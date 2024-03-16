@@ -1,0 +1,138 @@
+.wrapper h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 110px;
+    
+}
+
+/*Main ticket start*/
+.ticket {
+    margin-top: 150px;
+    
+    width: 60%;
+    margin-bottom: 130px;
+    margin-left: 370px;
+}
+
+
+.first_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.first_row1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    border: solid 1px black;
+    width: 25%;
+    height: 150px;
+}
+
+
+.first_row2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    border: solid 1px black;
+    width: 25%;
+    height: 150px;
+}
+
+.departure-tag{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+
+
+.first_row3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    border: solid 1px black;
+    width: 25%;
+    height: 150px;
+}
+
+
+.data_to{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+}
+.destination-tag{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+
+.second_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+.second_row1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+    border: solid 1px black;
+    width: 50%;
+    height: 150px;
+}
+.second_row_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.second_row1_span{
+    text-align: center;
+}
+
+
+.second_row2 {
+    display: flex;
+    justify-content: center;
+
+    padding: 0px 50px;
+    border: solid 1px black;
+    width: 50%;
+}
+
+.third_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 300px;
+    border: solid 1px black;
+}
+
+.third_row1 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+    border: solid 1px black;
+    width: 50%;
+    height: 150px;
+}
+
+.third_row2 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+    border: solid 1px black;
+    width: 50%;
+}

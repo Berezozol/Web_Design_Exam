@@ -1,0 +1,69 @@
+/*WRAPPERS START*/
+.introduction {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 100px 100px;
+}
+
+.wrapper h1 {
+    padding-bottom: 100px;
+}
+
+
+
+
+
+/*PARAGRAPHS START*/
+/*.firstThree {
+    display: flex;
+    flex-direction: row;
+}*/
+
+.full_story {
+    margin-bottom: 100px;
+    border: solid 3px black;
+    border-radius: 4%;
+    padding: 10px;
+    background-color: #d6d8df;
+}
+
+/*PARAGRAPHS END*/
+
+.founders_photo {
+    display: flex;
+    justify-content: center;
+    background-color: #43444e;
+    height: 600px;
+}
+/*WRAPPERS END*/
+
+
+/*FOOTERS START*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 130, 199);
+}
+
+.footer .menu-wrapper-2 .menu-2 .menu_element-2 {
+    list-style: none;
+}
+
+
+
+.footer .menu-wrapper-3 .menu-3 .menu_element-3 {
+    list-style: none;
+}
+
+.name {
+    margin: 0;
+    background-color: rgb(52, 130, 199);
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*FOOTERS END*/

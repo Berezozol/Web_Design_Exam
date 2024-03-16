@@ -1,0 +1,161 @@
+
+/*WRAPPER START*/
+.wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*PARAGRAPH1 START*/
+.wrapper .text .location_paragraph1 {
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+
+
+}
+
+.firstText_wrap {
+    width: 500px;
+    height: 100%;
+    background-color: #d6d8df;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.img1 {
+    width: 800px;
+    height: 100%;
+}
+
+.wrapper .text .location_paragraph1 .firstText_wrap .firstText {
+    font-size: 25px;
+    text-align: justify;
+    padding: 15px;
+}
+
+/*PARAGRAPH1 END*/
+/*PARAGRAPH2 START*/
+
+.wrapper .text .location_paragraph2 {
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.secondText_wrap {
+    width: 500px;
+    height: 100%;
+    background-color: #d6d8df;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img2 {
+    width: 800px;
+    height: 100%;
+}
+
+.wrapper .text .location_paragraph2 .secondText_wrap .secondText {
+    font-size: 25px;
+    text-align: justify;
+    padding: 15px;
+}
+
+/*PARAGRAPH2 END*/
+
+/*PARAGRAPH3 START*/
+.wrapper .text .location_paragraph3 {
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.thirdText_wrap {
+    width: 500px;
+    height: 100%;
+    background-color: #d6d8df;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img3 {
+    width: 800px;
+    height: 100%;
+}
+
+.wrapper .text .location_paragraph3 .thirdText_wrap .thirdText {
+    font-size: 25px;
+    text-align: justify;
+    padding: 15px;
+}
+
+/*PARAGRAPH3 END*/
+.location_map {
+    padding-top: 30px;
+    background-color: #51565a;
+    padding-bottom: 100px;
+}
+
+.location_map h2 {
+    padding-bottom: 15px;
+    color: aliceblue;
+}
+
+.location_map iframe {
+    height: 500px;
+    width: 900px;
+}
+
+/*MAP START*/
+.location_map {
+    text-align: center;
+}
+
+/*MAP END*/
+/*WRAPPER END*/
+
+/*FOOTERS START*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 130, 199);
+
+}
+
+.footer .menu-wrapper-2 .menu-2 .menu_element-2 {
+    list-style: none;
+}
+
+
+.footer .menu-wrapper-3 .menu-3 .menu_element-3 {
+    list-style: none;
+}
+
+.name {
+    margin: 0;
+    background-color: rgb(52, 130, 199);
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*FOOTERS END*/

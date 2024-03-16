@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home PAGE</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/API.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/js-api.js"></script>
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="logo">
+                <img src="img/logotype.jpg" alt="image" class="logo-img">
+            </div>
+            <div class="menu-wrapper">
+                <h3 class="title">BelBagFlight at your service!</h3>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu_element">
+                            <a href="index.html" class="menu_link">Home</a>
+                        </li>
+                        <li class="menu_element">
+                            <a href="aboutUs.html" class="menu_link">About us</a>
+                        </li>
+                        <li class="menu_element">
+                            <a href="contact.html" class="menu_link">Contact</a>
+                        </li>
+                        <li class="menu_element">
+                            <a href="gallery.html" class="menu_link">Gallery</a>
+                        </li>
+                        <li class="menu_element">
+                            <a href="location.html" class="menu_link">Location</a>
+                        </li>
+                        <li class="menu_element">
+                            <a href="skydiving.html" class="menu_link">Skydiving</a>
+                        </li>
+                    </ul>
+                    <nav>
+            </div>
+            <div class="kostil"></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper-search">
+            <div class="search">
+                <form class="search_book" action="validation.html">
+                    <div class="wrap-1">
+                        <div class="wrap-1-1">
+                            <div class="first_search_button">
+                                <div class="first_search_button_inside">
+                                    <div>
+                                        <label class="cool_span1">
+                                            <span>Departure:</span>
+                                        </label>
+                                        <input type="text" id="departure">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-1-2">
+                            <div class="second_search_button">
+                                <div class="second_search_button_inside">
+                                    <div>
+                                        <label class="cool_span2">
+                                            <span>Destination:</span>
+                                        </label>
+                                        <input type="text" id="destination">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--labels end-->
+                    </div>
+                    <div class="wrap-2">
+                        <div class="wrap-2-1">
+                            <div class="first_search_button">
+                                <div class="first_search_button_inside">
+                                    <div>
+                                        <label class="cool_span1">
+                                            <span>Departure:</span>
+                                        </label>
+                                        <div class="departure-">
+                                            <input type="date" id="datato">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-2-2">
+                            <div class="second_search_button">
+                                <div class="second_search_button_inside">
+                                    <div>
+                                        <label class="cool_span2">
+                                            <span>Destination:</span>
+                                        </label>
+                                        <div class="destination-">
+                                            <input type="date">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-3">
+                        <div class="wrap-3_buttons">
+                            <input class="wrap-3_button" type="submit" value="Search" onclick="getData()">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="wiki-wrap">
+            <h1>Wikipedia Search</h1>
+            <input type="text" id="search-input" placeholder="Search on Wikipedea">
+            <ul id="search-results"></ul>
+            <script src="/js/script.js"></script>
+        </div>
+
+
+        <div class="inline-center1">
+            <h1 style="text-align: center;">Our service</h1>
+            <div class="firstRow">
+                <div class="center-1">
+                    <img class='img1' src="img/luxury_rest.webp" alt="image">
+                    <p>At BelBagFlight, we pride ourselves on delivering an exceptional travel experience that exceeds
+                        expectations. With a commitment to luxury, innovation, and personalized service, we cater to
+                        discerning travelers seeking more than just transportation - they seek an unforgettable journey.
+                        From our exclusive Stuart's service to our modern fleet of aircraft and unparalleled business
+                        class amenities, we ensure that every aspect of your travel experience is meticulously curated
+                        to perfection.</p>
+                </div>
+                <div class="center-1">
+                    <img class='img1' src="img/Stuart5.jpg" alt="image">
+                    <p>Experience luxury like never before with Stuart's service, our premium offering designed for
+                        those who demand the utmost in comfort and sophistication. From the moment you step onboard, our
+                        dedicated team of professionals is at your service, catering to your every need with
+                        personalized attention and impeccable hospitality. Whether it's a gourmet meal prepared by our
+                        onboard chefs, a selection of fine wines curated by expert sommeliers, or access to exclusive
+                        lounge areas.</p>
+                </div>
+                <div class="center-1">
+                    <img class='img1' src="img/avia4.png" alt="image">
+                    <p>Embark on a journey of modern luxury with BelBagFlight's fleet of state-of-the-art aircraft,
+                        equipped with the latest amenities and safety features. Our modern planes are designed to
+                        provide passengers with a seamless and enjoyable travel experience, whether you're flying for
+                        business or leisure. With spacious seating, cutting-edge entertainment systems, and attentive
+                        cabin crew, our aircraft redefine the standards of air travel, promising a superior experience
+                        at every altitude.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--FOOTERS START-->
+    <footer class="footer">
+        <div class="menu-wrapper-2">
+            <ul class="menu-2">
+                <li class="menu_element-2">
+                    <a href="index.html" class="menu_link">Home</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="aboutUs.html" class="menu_link">About us</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="contact.html" class="menu_link">Contact</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="gallery.html" class="menu_link">Gallery</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="location.html" class="menu_link">Location</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="skydiving.html" class="menu_link">Skydiving</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-wrapper-3">
+            <ul class="menu-3">
+                <li class="menu_element-3">
+                    <a href="index.html" class="menu_link">Facebook</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="aboutUs.html" class="menu_link">Instagram</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="contact.html" class="menu_link">Telegram</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="gallery.html" class="menu_link">YouTube</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="location.html" class="menu_link">VK</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="portfolio.html" class="menu_link">Habr</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <p class="name">Aleksandr Zolotarev 2022230132</p>
+    <!--FOOTERS END-->
+</body>
+
+</html>

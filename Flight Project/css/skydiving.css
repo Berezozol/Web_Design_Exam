@@ -1,0 +1,89 @@
+/*eightPhotoes START*/
+.wrapper {
+    text-align: center;
+    margin-top: 100px;
+}
+.skydiving_heading {
+    padding-bottom: 50px;
+}
+.wrapper .intro_text1 {
+    padding-top: 50px;
+    text-align: left;
+    margin: 20px 300px;
+    text-align: justify;
+}
+
+.wrapper .intro_text2 {
+    text-align: left;
+    margin: 20px 300px;
+    text-align: justify;
+    
+}
+
+.wrapper .eightPhotoes .firstfourPhotoes {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper .eightPhotoes .firstfourPhotoes .ffPhoto {
+    margin-top: 10px;
+    width: 20%;
+    height: 580px;
+    display: inline-block;
+    margin-right: 15px;
+    word-break: normal;
+    margin-right: 40px;
+    border-radius: 3%;
+    background-color: #d6d8df;
+}
+
+.ffPhoto_text-block p {
+    height: 30%;
+    text-align: justify;
+    padding: 3%;
+}
+
+.ffPhotoText {
+    word-break: normal;
+}
+
+.wrapper .eightPhotoes .firstfourPhotoes .ffPhoto .img1 {
+    width: 380px;
+    height: 310px;
+}
+
+
+
+
+/*eightPhotoes END*/
+ 
+/*FOOTERS START*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 130, 199);
+    margin-top: 100px;
+
+}
+
+.footer .menu-wrapper-2 .menu-2 .menu_element-2 {
+    list-style: none;
+}
+
+
+
+.footer .menu-wrapper-3 .menu-3 .menu_element-3 {
+    list-style: none;
+}
+
+.name {
+    margin: 0;
+    background-color: rgb(52, 130, 199);
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*FOOTERS END*/

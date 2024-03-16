@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/validation.css">
+    <title>Ticket</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="/js/js.js"></script>
+    <title>VALIDATION PAGE</title>
+</head>
+
+<body>
+    <script>    
+        console.log(localStorage.getItem("txtValue"));
+        console.log(localStorage.getItem("txtValue1"));
+        console.log(localStorage.getItem("txtValue2"));
+
+     </script>
+    <!-- Menu Header-->
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="logo">
+                <img src="img/logotype.jpg" alt="LOGO" class="logo-img">
+            </div>
+            <div class="menu-wrapper">
+                <h3 class="title">BelBagFlight at your service!</h3>
+                <ul class="menu">
+                    <li class="menu_element">
+                        <a href="index.html" class="menu_link">Home</a>
+                    </li>
+                    <li class="menu_element">
+                        <a href="aboutUs.html" class="menu_link">About us</a>
+                    </li>
+                    <li class="menu_element">
+                        <a href="contact.html" class="menu_link">Contact</a>
+                    </li>
+                    <li class="menu_element">
+                        <a href="gallery.html" class="menu_link">Gallery</a>
+                    </li>
+                    <li class="menu_element">
+                        <a href="location.html" class="menu_link">Location</a>
+                    </li>
+                    <li class="menu_element">
+                        <a href="skydiving.html" class="menu_link">Skydiving</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="kostil"></div>
+        </div>
+    </header>
+    <!--End Of The Menu Header-->
+    <main>
+        <div class="wrapper">
+            <h1>YOUR TICKET</h1>
+            <div class="ticket">
+                <!--FIRST ROW START-->
+                <div class="first_row">
+                    <div class="first_row1">
+                        <span class="departure-tag">
+                            Departure
+                        </span>
+                        <p id="data"></p>
+                    </div>
+                    <div class="first_row2">
+                        <span class="destination-tag">
+                            Destination
+                        </span>
+                        <p id="data1"></p>
+                    </div>
+                    <div class="first_row3">
+                        <span class="data_to">
+                            data to
+                        </span>
+                        <p id="data2"></p>
+                    </div>
+                </div>
+                <script>
+                    document.getElementById("data").innerHTML = localStorage.getItem("txtValue");
+                    document.getElementById("data1").innerHTML = localStorage.getItem("txtValue1");
+                    document.getElementById("data2").innerHTML = localStorage.getItem("txtValue2");
+                </script>
+                <!--FIRST ROW END-->
+                <!--SECOND ROW START-->
+                <div class="second_row">
+                    <div class="second_row1">
+                        <span class="second_row1_span">Name</span>
+                        <div class="second_row_input">
+                            <input id="name3" type="text" onkeyup="checkNameSurname2()">
+                            <span id="name4"></span>
+                        </div>
+                    </div>
+                    <div class="second_row1">
+                        <span class="second_row1_span">Surname</span>
+                        <div class="second_row_input">
+                            <input id="surname" type="text" onkeyup="checkNameSurname()">
+                            <span id="name2"></span>
+                        </div>
+                    </div>
+                    <!--SECOND ROW END-->
+                </div>
+                <!--THIRD ROW START-->
+                <div class="third_row">
+                    <div class="second_row1">
+                        <span class="second_row1_span">Passport number</span>
+                        <div class="second_row_input">
+                            <input id="passport" type="text" onkeyup="checkPassport()">
+                            <span id="pasoh"></span>
+                        </div>
+                    </div>
+                    <div class="second_row1">
+                        <span class="second_row1_span">Email</span>
+                        <div class="second_row_input">
+                            <input id="email" type="text" onkeyup="checkEmail()">
+                            <span id="email2"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--THIRD PART END-->
+            </div>
+        </div>
+    </main>
+
+    <!--FOOTERS START-->
+    <footer class="footer">
+        <div class="menu-wrapper-2">
+            <ul class="menu-2">
+                <li class="menu_element-2">
+                    <a href="index.html" class="menu_link">Home</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="aboutUs.html" class="menu_link">About us</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="contact.html" class="menu_link">Contact</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="gallery.html" class="menu_link">Gallery</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="location.html" class="menu_link">Location</a>
+                </li>
+                <li class="menu_element-2">
+                    <a href="skydiving.html" class="menu_link">Skydiving</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-wrapper-3">
+            <ul class="menu-3">
+                <li class="menu_element-3">
+                    <a href="index.html" class="menu_link">Facebook</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="aboutUs.html" class="menu_link">Instagram</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="contact.html" class="menu_link">Telegram</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="gallery.html" class="menu_link">YouTube</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="location.html" class="menu_link">VK</a>
+                </li>
+                <li class="menu_element-3">
+                    <a href="portfolio.html" class="menu_link">Habr</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <p class="name">Aleksandr Zolotarev 2022230132</p>
+    <!--FOOTERS END-->
+</body>
+
+</html>
